@@ -12,6 +12,10 @@ const Styled = () => {
     color: purple;
     transition : 3s;
     transform: rotate(0deg);
+    &>span{
+        color: red;
+    }
+
     &:hover{
       color : purple;
       transform: rotate(360deg);
@@ -19,7 +23,7 @@ const Styled = () => {
   `;
 return (
      <>
-        <Title>Hello World</Title>
+        <Title>Do what you LOVE <span>❤</span></Title>
      </>
 )
 }
