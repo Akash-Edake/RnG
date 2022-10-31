@@ -96,8 +96,9 @@ function Lazyimg() {
         {img:'img/Android-10-Wallpapers/Android-10-Wallpapers (10).png'}
     ]
     const style={
-      width:'200px',
+      width:'2em',
       padding:'20px',
+     
       
     }
     // const bg={
