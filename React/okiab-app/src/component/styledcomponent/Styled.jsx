@@ -1,15 +1,15 @@
 import React from 'react'
-import styled from 'styled-components';
+import  styled  from 'styled-components';
 
 const Styled = () => {
 
     const Title = styled.div`
+    // background: black;
     display: flex;
-    font-size: 5rem;
-    font-weight: bold;
-    justify-content: center;
-    margin-top: 20%;
-    color: purple;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left: 5rem;
+    color: #4a2148;
     transition : 3s;
     transform: rotate(0deg);
     &>span{

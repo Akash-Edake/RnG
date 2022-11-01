@@ -24,12 +24,12 @@ const Sidebar = () => {
     return (
         <section>
             <div>
-                <div>
+                <div className='text-white fw-bolder mt-4'>
                     {
                         SidebarMenu.map((items) => {
                             return (
                                 <>
-                                    <NavLink to={items.path}>
+                                    <NavLink to={items.path} className="text-decoration-none text-white">
                                         <div>{items.name}</div>
                                     </NavLink>
                                 </>
@@ -40,9 +40,6 @@ const Sidebar = () => {
                     }
                 </div>
 
-                <div className='col-9'>
-                    <Outlet />
-                </div>
             </div>
         </section>
 
