@@ -1,6 +1,7 @@
 import React, {Suspense,lazy} from 'react'
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
 // import Loading from './components/Loading';
 const Lazyimg= lazy(()=>import('./components/Lazyimg'));
 function App() {
@@ -8,8 +9,10 @@ function App() {
    <>
    <BrowserRouter>
    <Suspense fallback='loading'>
+    
     <Routes>
-      <Route path='/' element={<Lazyimg />} />
+      <Route element={<Sidebar />} >
+      <Route path='/' element={<Lazyimg />} /></Route>
     </Routes>
    
    </Suspense>
