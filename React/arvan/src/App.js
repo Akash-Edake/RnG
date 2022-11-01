@@ -1,13 +1,17 @@
-import React, {Suspense,lazy} from 'react'
+// import React, {Suspense,lazy} from 'react'
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import Sidebar from './components/Sidebar';
+import MainPage from './components/MainPage';
 // import Loading from './components/Loading';
-const Lazyimg= lazy(()=>import('./components/Lazyimg'));
+
+
+// const Lazyimg= lazy(()=>import('./components/Lazyimg'));
+
 function App() {
   return (
    <>
-   <BrowserRouter>
+   {/* <BrowserRouter>
    <Suspense fallback='loading'>
     
     <Routes>
@@ -16,10 +20,8 @@ function App() {
     </Routes>
    
    </Suspense>
-   </BrowserRouter>
-  
-  
- 
+   </BrowserRouter> */}
+   <MainPage/>
    </>
   );
 }
