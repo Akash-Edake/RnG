@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
     <h1>About</h1>
-    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti eveniet dolorum deleniti voluptatibus culpa aperiam aut provident optio at ipsum?</div>
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, recusandae.</div>
     </>
   )
 }
