@@ -1,0 +1,8 @@
+body{
+    background-color: green;
+}
+
+div >li{
+    background-color: black;
+    color: white;
+} 

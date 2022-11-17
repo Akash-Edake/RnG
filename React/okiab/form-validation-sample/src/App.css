@@ -1,0 +1,33 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.2) ),url("https://upload.wikimedia.org/wikipedia/commons/5/5c/518097-background-hd.jpg");
+    background-size: cover;
+    background-position: center;
+}   
+
+form{
+    background-color: white;
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+
+h1{
+    color: rgb(82, 18, 18);
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    background-color: rgb(92, 11, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}

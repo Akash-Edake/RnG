@@ -1,0 +1,15 @@
+<div class="userList">
+    
+    <h1>userList component</h1>
+</div>
+<button (click)='getName("Dhanashri")'>click Me</button>
+
+<input type="text" #abc (keyup.enter)="getTextInput(abc.value)"/>
+
+<h1 (mouseover)="getTextInput('hello Akash')" style="background-color: red;">Hello Akash</h1>
+<h1 (mouseleave)="getTextInput('hello shri')">Hello Dhanashri</h1>
+
+<input type="text" #box>
+<button (click)="getData(box.value)">clickME</button>
+
+<h3>{{currVal}}</h3>
