@@ -21,5 +21,4 @@ const FormInput = (props) => {
     </div>
   )
 }
-
 export default FormInput
